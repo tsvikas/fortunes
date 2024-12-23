@@ -1,5 +1,9 @@
 # A collection of fortunes.
 
+The fortunes were cleaned, word wrapped, and the authoer was formatted nicely
+
+Tested working with [rs-fortune](https://github.com/zuisong/rs-fortune)
+
 ## Sources:
 
 - [Discordian quotes](discordian)
