@@ -17,7 +17,7 @@
 - [Firefly quotes](firefly)
   - collected by [AndrewReitz](https://github.com/AndrewReitz/fortune-firefly)
   - Copyrighted by Fox Broadcasting Corporation and Universal Pictures
-- \[Fragments of Heraclitus\](fragments of heraclitus)
+- [Fragments of Heraclitus](fragments_of_heraclitus)
   - collected by [JKirchartz](https://github.com/JKirchartz/fortunes/blob/master/HeraclitusFragments)
   - Unlicense
   - from [Roberto's Collection](https://github.com/r03ert0/Heraclitus-Fragments)
@@ -29,7 +29,7 @@
 - [Motivational quotes](motivate)
   - collected by [mubaris](https://github.com/mubaris/motivate)
   - MIT license
-- \[Oblique Strategies cards\](oblique strategies)
+- [Oblique Strategies cards](oblique_strategies)
   - collected by [JKirchartz](https://github.com/JKirchartz/fortunes/blob/master/ObliqueStrategies)
   - Unlicense
   - from Brian Eno's [Oblique Strategies cards](https://en.wikipedia.org/wiki/Oblique_Strategies)
