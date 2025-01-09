@@ -1,6 +1,6 @@
 # A collection of fortunes.
 
-The fortunes were cleaned, word wrapped, and the authoer was formatted nicely
+The fortunes were cleaned, word wrapped, and the author was formatted nicely
 
 Tested working with [rs-fortune](https://github.com/zuisong/rs-fortune)
 
@@ -15,7 +15,7 @@ Tested working with [rs-fortune](https://github.com/zuisong/rs-fortune)
 - [Epigrams on Programming](epigrams_on_programming)
   - collected by [JKirchartz](https://github.com/JKirchartz/fortunes/blob/master/epigrams_in_programming)
   - Unlicense
-  - from [exerpts](http://www.cs.yale.edu/homes/perlis-alan/quotes.html)
+  - from [excerpts](http://www.cs.yale.edu/homes/perlis-alan/quotes.html)
   - published by [Perlis, A. J. (1982b). Special Feature: Epigrams on programming. ACM SIGPLAN Notices, 17(9), 7–13](https://doi.org/10.1145/947955.1083808)
   - [full pdf](https://gwern.net/doc/cs/algorithm/1982-perlis.pdf)
 - [Firefly quotes](firefly)
