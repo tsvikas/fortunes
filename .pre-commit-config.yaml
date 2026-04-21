@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: strfile
+        name: Generate .dat indexes for fortune files
+        language: system
+        entry: bash -c 'for f in "$@"; do strfile -- "$f"; done' --
+        files: '^[^.]+$'
