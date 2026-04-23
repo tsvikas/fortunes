@@ -4,6 +4,39 @@ The fortunes were cleaned, word wrapped, and the author was formatted nicely
 
 Tested working with [rs-fortune](https://github.com/zuisong/rs-fortune)
 
+## Installation
+
+Each fortune file is plain text with `%` on its own line as a delimiter.
+`.dat` index files are intentionally not committed: the on-disk format differs
+between `fortune` (ibiblio/BSD lineage, shipped by Homebrew) and `fortune-mod`
+(shlomif fork, shipped by Ubuntu and Fedora), so they must be regenerated
+locally with the `strfile` that matches your `fortune` binary.
+
+### rs-fortune (any platform — no `.dat` needed)
+
+[rs-fortune](https://github.com/zuisong/rs-fortune) reads these files directly:
+
+    cargo install --git https://github.com/zuisong/rs-fortune
+    FORTUNE_FILE=taoup rs-fortune
+
+### macOS (Homebrew)
+
+    brew install fortune
+    cd <this-directory>
+    find . -maxdepth 1 -type f ! -name '*.*' -exec strfile -- {} \;
+
+### Ubuntu / Debian
+
+    sudo apt install fortune-mod
+    cd <this-directory>
+    find . -maxdepth 1 -type f ! -name '*.*' -exec /usr/games/strfile -- {} \;
+
+### Fedora
+
+    sudo dnf install fortune-mod
+    cd <this-directory>
+    find . -maxdepth 1 -type f ! -name '*.*' -exec strfile -- {} \;
+
 ## Sources:
 
 - [Discordian quotes](discordian)
