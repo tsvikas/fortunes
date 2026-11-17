@@ -11,6 +11,8 @@ Each fortune file is plain text with `%` on its own line as a delimiter.
 between `fortune` (ibiblio/BSD lineage, shipped by Homebrew) and `fortune-mod`
 (shlomif fork, shipped by Ubuntu and Fedora), so they must be regenerated
 locally with the `strfile` that matches your `fortune` binary.
+`./index.sh` does that: it uses the `strfile` beside the `fortune` on your PATH.
+Re-run it after a fortune file changes.
 
 ### rs-fortune (any platform — no `.dat` needed)
 
@@ -22,20 +24,17 @@ locally with the `strfile` that matches your `fortune` binary.
 ### macOS (Homebrew)
 
     brew install fortune
-    cd <this-directory>
-    find . -maxdepth 1 -type f ! -name '*.*' -exec strfile -- {} \;
+    <this-directory>/index.sh
 
 ### Ubuntu / Debian
 
     sudo apt install fortune-mod
-    cd <this-directory>
-    find . -maxdepth 1 -type f ! -name '*.*' -exec /usr/games/strfile -- {} \;
+    <this-directory>/index.sh
 
 ### Fedora
 
     sudo dnf install fortune-mod
-    cd <this-directory>
-    find . -maxdepth 1 -type f ! -name '*.*' -exec strfile -- {} \;
+    <this-directory>/index.sh
 
 ## Sources:
 
